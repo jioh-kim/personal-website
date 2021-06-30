@@ -122,7 +122,6 @@ const Hero = ({ content }) => {
                 />
               </motion.div>
             </div>
-            {frontmatter.title}
           </h1>
           <h2 className="subtitle">
             {frontmatter.subtitlePrefix}{" "}
