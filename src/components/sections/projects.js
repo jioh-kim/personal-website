@@ -22,7 +22,7 @@ const StyledSection = styled.section`
   .cta-btn {
     display: block;
     text-align: center;
-    margin: 2rem auto;
+    margin: 0rem auto;
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
       margin: 0 auto;
     }
@@ -54,7 +54,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
     .projects {
       display: flex;
       flex-direction: row;
-      margin-top: -2.5rem;
+      margin-top: -2rem;
       padding: 2.5rem 2.5rem;
       overflow-x: scroll;
       overflow-y: hidden;
@@ -111,7 +111,7 @@ const StyledProject = styled(motion.div)`
   justify-content: flex-end;
   align-items: center;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   flex-shrink: 0;
   padding-right: 2.5rem;
   max-width: 20rem;
@@ -124,7 +124,7 @@ const StyledProject = styled(motion.div)`
     justify-content: space-between;
     flex-shrink: 1;
     max-width: 62.5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 1.5rem;
     padding-right: 0;
     /* Positioning of image and details should vary */
     flex-direction: ${({ position }) =>
@@ -132,10 +132,11 @@ const StyledProject = styled(motion.div)`
   }
   .details {
     width: 100%;
-    max-width: 25rem;
+    max-width: 30rem;
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
+    margin-right: 1rem;
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
       margin-top: 0;
     }
@@ -146,17 +147,17 @@ const StyledProject = styled(motion.div)`
       letter-spacing: +1px;
     }
     .title {
-      margin-top: 0.625rem;
-      margin-bottom: 0.625rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0.1rem;
       font-size: 1.375rem;
       line-height: 1.625rem;
-      font-weight: 700;
+      font-weight: 450;
     }
     .tags {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 1.5rem;
-      line-height: 1.2rem;
+      margin-top: 0rem;
+      line-height: 1.5 rem;
       span {
         margin-right: 1rem;
         margin-bottom: 1rem;
@@ -167,7 +168,7 @@ const StyledProject = styled(motion.div)`
       justify-content: flex-start;
       align-items: center;
       width: 100%;
-      margin-top: 1rem;
+      margin-top: 0.5rem;
       a {
         display: inline-block;
         margin-right: 2rem;
@@ -184,17 +185,18 @@ const StyledProject = styled(motion.div)`
   }
   .screenshot {
     width: 100%;
-    max-width: 25rem;
-    height: 15rem;
+    max-width: 20rem;
+    height: 5rem;
+    margin-right: 1.5rem;
     border-radius: ${({ theme }) => theme.borderRadius};
-    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.16);
     transition: all 0.3s ease-out;
     &:hover {
       transform: translate3d(0px, -0.125rem, 0px);
       box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
     }
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
-      height: 18.75rem;
+      height: 15rem;
     }
   }
 `

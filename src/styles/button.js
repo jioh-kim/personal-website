@@ -3,14 +3,14 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 
 const StyledButton = styled.button`
-  width: 15.625rem;
-  height: 3rem;
+  width: 14rem;
+  height: 2.7rem;
   background-color: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.background};
   padding: 1rem;
   margin: 0 ${({ center }) => (center ? "auto" : "0")};
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: 500;
   text-transform: uppercase;
   border: none;
   border-radius: ${({ theme }) => theme.borderRadius};

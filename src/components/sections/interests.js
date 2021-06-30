@@ -26,12 +26,12 @@ const StyledContentWrapper = styled(ContentWrapper)`
     padding-right: 0;
     padding-left: 0;
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
-      padding-right: 2.5rem;
-      padding-left: 2.5rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
     }
     .section-title {
-      padding-right: 2.5rem;
-      padding-left: 2.5rem;
+      padding-right: 2rem;
+      padding-left: 2 rem;
       @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
         padding-right: 0;
         padding-left: 0;
@@ -66,7 +66,7 @@ const StyledInterests = styled.div`
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     grid-auto-flow: row;
-    grid-template-columns: repeat(3, 15.625rem);
+    grid-template-columns: repeat(3, 15rem);
     overflow: visible;
     padding: 0;
   }
@@ -95,7 +95,7 @@ const StyledInterests = styled.div`
   }
 
   .interest {
-    width: 15rem;
+    width: 14rem;
     height: 2.7rem;
     display: flex;
     justify-content: flex-start;
@@ -105,7 +105,7 @@ const StyledInterests = styled.div`
     border-radius: ${({ theme }) => theme.borderRadius};
     background: ${({ theme }) => theme.colors.card};
     .icon {
-      margin-right: 0.5rem;
+      margin-right: 0.7rem;
     }
   }
 `
