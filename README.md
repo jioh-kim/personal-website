@@ -2,5 +2,4 @@
 🏠 my house
 
 - host on Netlify
-- In progress
-- https://jioh.ca/
+- www.jioh.ca
