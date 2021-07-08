@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Welcome to Ji-Oh's world",
   siteShortTitle: "JK", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "Ji-Oh Kim's Personal Website",
+    "Personal Website 🏠",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", 
