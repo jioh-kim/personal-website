@@ -1,11 +1,11 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@jioh-kim",
-  siteTitle: "Welcome to Ji-Oh's world",
+  siteTitle: "Ji-Oh Kim",
   siteShortTitle: "JK", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "Personal Website 🏠",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+  siteUrl: "https://jioh.ca",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", 
   seoTitleSuffix: "Ji Oh Kim", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
