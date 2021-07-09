@@ -16,6 +16,7 @@ const StyledSocialWrapper = styled.div`
 
   margin-left: -2.5rem;
   margin-right: -2.5rem;
+  margin-bottom: 5rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 

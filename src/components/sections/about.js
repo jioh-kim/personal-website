@@ -13,7 +13,7 @@ const StyledSection = styled.section`
   width: 100%;
   height: auto;
   background: ${({ theme }) => theme.colors.background};
-  margin-top: 4rem;
+  margin-top: -6rem;
 `
 
 const StyledContentWrapper = styled(ContentWrapper)`

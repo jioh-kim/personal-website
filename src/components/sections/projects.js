@@ -18,7 +18,7 @@ const StyledSection = styled.section`
   width: 100%;
   height: auto;
   background: ${({ theme }) => theme.colors.background};
-  margin-top: 6rem;
+  margin-top: 3rem;
   .cta-btn {
     display: block;
     text-align: center;
@@ -64,7 +64,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       }
       @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
         flex-direction: column;
-        margin-top: 0;
+        margin-top: -4;
         padding: 0;
         overflow: visible;
       }
