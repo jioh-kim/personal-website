@@ -75,7 +75,7 @@ module.exports = {
     // },
     {
       name: "Mail",
-      url: "mailto:jioh.kim@mail.utoronto.ca",
+      url: "mailto:jioh.kim@outlook.com",
     },
   ],
 
